@@ -1,5 +1,5 @@
 ---
-title: 2019-8-5-Java hash算法分析
+title: 2019-8-5-Java 各种hash算法分析
 tags: Java
 ---
 >Hash, 把任意长度的输入, 通过散列算法, 转化为一个定长的值.
