@@ -5,11 +5,8 @@ tags: [Java,Collections]
 ## 面向对象  
 #### 什么是面向对象  
 [面向对象、面向过程](https://github.com/hollischuang/toBeTopJavaer/blob/master/basics/java-basic/object-oriented-vs-procedure-oriented.md)
-
 [面向对象的三大基本特征](https://github.com/hollischuang/toBeTopJavaer/blob/master/basics/java-basic/characteristics.md)
-
 [五大基本原则](https://github.com/hollischuang/toBeTopJavaer/blob/master/basics/java-basic/principle.md)
-
 #### 平台无关性  
 [Java如何实现的平台无关性的](https://github.com/hollischuang/toBeTopJavaer/blob/master/basics/java-basic/platform-independent.md)
 
