@@ -67,11 +67,11 @@ replaceFirst、replaceAll、replace区别、
 
 字符串池、常量池（运行时常量池、Class常量池）、intern
 #### 熟悉Java中各种关键字
-transient
+[transient](https://www.cnblogs.com/chenpi/p/6185773.html)
 
-instanceof
+[instanceof](https://www.runoob.com/java/method-instanceof.html)
 
-volatile
+[volatile](https://www.infoq.cn/article/java-memory-model-4/?utm_source=infoq&%253Butm_medium=related_content_link&%253Butm_campaign=relatedContent_articles_clk)
 
 synchronized
 
@@ -79,7 +79,7 @@ final
 
 static
 
-const
+[const](https://howtodoinjava.com/tutorials/java-keywords/const-keyword-in-java/)
 #### 集合类
 常用集合类的使用
 
@@ -95,7 +95,7 @@ const
 
 [Java 8中stream相关用法、](https://github.com/hollischuang/toBeTopJavaer/blob/master/basics/java-basic/stream.md)
 
-apache集合处理工具类的使用、
+apache集合处理工具类的使用
 
 不同版本的JDK中HashMap的实现的区别以及原因
 
