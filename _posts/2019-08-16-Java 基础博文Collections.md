@@ -167,6 +167,8 @@ protobuf
 
 为什么说序列化并不安全
 #### 注解
+[Java注解的基本原理](https://juejin.im/post/5b45bd715188251b3a1db54f)
+
 [元注解](https://github.com/hollischuang/toBeTopJavaer/blob/master/basics/java-basic/meta-annotation.md)
 
 [自定义注解](https://github.com/hollischuang/toBeTopJavaer/blob/master/basics/java-basic/custom-annotation.md)
@@ -235,6 +237,8 @@ API
 
 [SPI的实现原理](https://github.com/hollischuang/toBeTopJavaer/blob/master/basics/java-basic/spi-principle.md)
 #### 异常
+[深入理解java异常处理机制](https://blog.csdn.net/hguisu/article/details/6155636)
+
 异常类型、正确处理异常、自定义异常
 
 Error和Exception
@@ -266,40 +270,44 @@ URL编解码、Big Endian和Little Endian
 如何解决乱码问题
 
 #### 语法糖
+[Java语法糖详解](https://blog.csdn.net/gitchat/article/details/79294904)
+
 Java中语法糖原理、解语法糖
 
 语法糖：switch 支持 String 与枚举、泛型、自动装箱与拆箱、方法变长参数、枚举、内部类、条件编译、 断言、数值字面量、
 for-each、try-with-resource、Lambda表达式、
 ## 阅读源代码  
-String
+[String](https://www.hollischuang.com/archives/99)
 
-Integer
+[Integer](https://www.hollischuang.com/archives/1058)
 
-Long
+[BigInteger](https://www.hollischuang.com/archives/176)
 
-Enum
+[Long](https://juejin.im/post/59c07d795188253da713c710)
 
-BigDecimal
+[Enum](https://www.hollischuang.com/archives/92)
 
-ThreadLoader && URLClassLoader
+[BigDecimal](https://blog.csdn.net/jackiehff/article/details/8582449)
 
-ArrayList
+[ClassLoader && URLClassLoader](https://www.hollischuang.com/archives/199)
 
-LinkedList
+[ArrayList](https://blog.csdn.net/zxt0601/article/details/77281231)
 
-HashMap
+[LinkedList](https://blog.csdn.net/zxt0601/article/details/77341098)
 
-LinkedHashMap
+[HashMap](https://blog.csdn.net/zxt0601/article/details/77413921)
 
-TreeMap
+[LinkedHashMap](https://blog.csdn.net/zxt0601/article/details/77429150)
 
-ConcurrentHashMap
+[TreeMap](https://www.jianshu.com/p/fc5e16b5c674)
 
-HashSet
+[ConcurrentHashMap](https://juejin.im/entry/59fc786d518825297f3fa968)
 
-LinkedHashSet
+[HashSet](https://www.jianshu.com/p/1f7a8dda341b)
 
-TreeSet
+[LinkedHashSet](http://wiki.jikexueyuan.com/project/java-collection/linkedhashset.html)
+
+[TreeSet](https://wiki.jikexueyuan.com/project/java-enhancement/java-twentyeight.html)
 ## Java并发编程  
 #### 并发与并行
 什么是并发
