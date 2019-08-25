@@ -314,17 +314,17 @@ for-each、try-with-resource、Lambda表达式、
 
 什么是并行
 
-并发与并行的区别
+[并发与并行的区别](https://www.zhihu.com/question/33515481/answer/199929767)
 #### 线程
-线程的实现
+[线程的实现](https://www.zhihu.com/question/263955521/answer/296521081)
 
 线程的状态,优先级,线程调度
 
-创建线程的多种方式
+[创建线程的多种方式](https://zhuanlan.zhihu.com/p/48415513)
 
-守护线程
+[守护线程](https://zhuanlan.zhihu.com/p/28049750)
 
-线程与进程的区别
+[线程与进程的区别](https://www.liaoxuefeng.com/wiki/1016959663602400/1017627212385376)
 #### 线程池
 自己设计线程池
 
