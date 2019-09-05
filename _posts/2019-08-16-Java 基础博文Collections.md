@@ -191,15 +191,15 @@ java.lang.management.*
 
 javax.management.*
 #### 泛型
-泛型与继承
+[泛型与继承](https://segmentfault.com/q/1010000007925818)
 
-类型擦除
+[类型擦除](https://segmentfault.com/a/1190000003831229)
 
 [泛型中K T V E ？ object等的含义](https://github.com/hollischuang/toBeTopJavaer/blob/master/basics/java-basic/k-t-v-e.md)
 
-泛型各种用法
+[泛型各种用法](https://blog.csdn.net/s10461/article/details/53941091)
 
-限定通配符和非限定通配符
+[限定通配符和非限定通配符](https://blog.csdn.net/qq172435345/article/details/79060082)
 
 上下界限定符extends 和 super
 
@@ -243,7 +243,9 @@ API
 
 Error和Exception
 
-异常链、try-with-resources
+[异常链](https://waylau.gitbooks.io/essential-java/docs/exceptions-chained-exceptions.html)
+
+try-with-resources
 
 finally和return的执行顺序
 
@@ -252,14 +254,14 @@ finally和return的执行顺序
 
 格林威治时间、CET,UTC,GMT,CST几种常见时间的含义和关系
 
-SimpleDateFormat的线程安全性问题
+[SimpleDateFormat的线程安全性问题](https://www.jianshu.com/p/d9977a048dab)
 
 Java 8中的时间处理
 
 如何在东八区的计算机上获取美国时间
 
 #### 编码方式
-Unicode、有了Unicode为啥还需要UTF-8
+[Unicode、有了Unicode为啥还需要UTF-8](https://www.zhihu.com/question/23374078)
 
 GBK、GB2312、GB18030之间的区别
 
@@ -318,7 +320,9 @@ for-each、try-with-resource、Lambda表达式、
 #### 线程
 [线程的实现](https://www.zhihu.com/question/263955521/answer/296521081)
 
-线程的状态,优先级,线程调度
+[线程的状态](https://blog.csdn.net/pange1991/article/details/53860651)
+
+优先级,线程调度
 
 [创建线程的多种方式](https://zhuanlan.zhihu.com/p/48415513)
 
@@ -328,41 +332,41 @@ for-each、try-with-resource、Lambda表达式、
 #### 线程池
 自己设计线程池
 
-submit()和execute()
+[submit()和execute()](https://www.cnblogs.com/handsomeye/p/6225033.html)
 
-线程池原理
+[线程池原理](https://juejin.im/post/5aeec0106fb9a07ab379574f)
 
 为什么不允许使用Executors创建线程
 #### 线程安全
-死锁
+[死锁](https://juejin.im/post/59e9ac446fb9a045167c520a)
 
 死锁如何排查
 
 线程安全和内存模型的关系
 #### 锁
-CAS
+[CAS](https://www.hollischuang.com/archives/1537)
 
-乐观锁与悲观锁
+[乐观锁与悲观锁](https://www.hollischuang.com/archives/934)
 
-数据库相关锁机制
+[数据库相关锁机制](https://blog.csdn.net/C_J33/article/details/79487941)
 
-分布式锁
+[分布式锁](https://www.hollischuang.com/archives/1716)
 
-偏向锁
+[偏向锁](https://www.cnblogs.com/wade-luffy/p/5969418.html)
 
 轻量级锁
 
 重量级锁
 
-monitor
+[monitor](https://www.hollischuang.com/archives/2030)
 
-锁优化
+[锁优化](https://juejin.im/entry/5ae1e7a5f265da0ba351c2c0)
 
-锁消除
+[锁消除](https://blog.csdn.net/qq_26222859/article/details/80546917)
 
 锁粗化
 
-自旋锁
+[自旋锁](https://segmentfault.com/a/1190000015795906)
 
 可重入锁
 
@@ -375,7 +379,7 @@ monitor
 
 #### synchronized
 
-synchronized是如何实现的？
+[synchronized是如何实现的？](https://www.hollischuang.com/archives/1883)
 
 synchronized和lock之间关系、不使用synchronized如何实现一个线程安全的单例
 
@@ -390,7 +394,7 @@ volatile和原子性、可见性和有序性之间的关系
 有了symchronized为什么还需要volatile
 
 #### 线程相关方法
-sleep 和 wait
+[sleep 和 wait](https://blog.csdn.net/eff666/article/details/53559201)
 
 wait 和 notify
 
@@ -400,22 +404,22 @@ notify 和 notifyAll
 
 写代码来解决生产者消费者问题
 #### 阅读源码
-Thread
+[Thread](https://juejin.im/post/5ad743f7f265da50463e3715)
 
-Runnable
+[Runnable](https://my.oschina.net/mengyuankan/blog/2249979)
 
-Callable
+[Callable](http://blueskykong.com/2017/05/26/callable-future-analyze/)
 
-ReentrantLock
+[ReentrantLock](https://www.cnblogs.com/leesf456/p/5383609.html)
 
-ReentrantReadWriteLock
+[ReentrantReadWriteLock](https://juejin.im/post/5b7d659c6fb9a019fc76dfba)
 
 Atomic*
 
-Semaphore
+[Semaphore](https://www.cnblogs.com/leesf456/p/5414778.html)
 
-CountDownLatch
+[CountDownLatch](https://www.cnblogs.com/leesf456/p/5406191.html)
 
-ConcurrentHashMap
+[ConcurrentHashMap](https://juejin.im/entry/59fc786d518825297f3fa968)
 
-Executors
+[Executors](https://www.hollischuang.com/archives/2888)
