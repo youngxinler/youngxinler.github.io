@@ -18,9 +18,7 @@ titles:
 key: page-about
 ---
 
-
 # 个人信息
-
  - 杨鑫乐/男/1998
  - 技术博客：https://yxler.cn
  - Github：https://github.com/youngxinler
