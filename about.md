@@ -38,7 +38,7 @@ key: page-about
 # 联系方式
 - 手机：13243486159
 - Email：youngxinler@gmail.com 
-- QQ/微信号：524022485
+- QQ：qq524022485
 
 
   
