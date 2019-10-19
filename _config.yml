@@ -220,5 +220,4 @@ plugins:
   - jekyll-sitemap
   - jemoji
 
-gems:
-  - jekyll-sitemap
+gems: [jekyll-sitemap]
