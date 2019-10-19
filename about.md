@@ -1,6 +1,7 @@
 ---
 layout: article
-titles: YoungXinLer
+title: YoungXinLer
+tags: [个人简介]
 key: page-about
 ---
 # 个人信息
