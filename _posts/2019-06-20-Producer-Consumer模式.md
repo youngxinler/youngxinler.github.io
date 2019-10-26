@@ -162,4 +162,3 @@ public class Main {
     }
 }
 ```
-[*点我,12种Java多线程设计模式, 希望能帮到你*](https://www.jianshu.com/nb/37785937)
