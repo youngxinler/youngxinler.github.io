@@ -12,6 +12,7 @@ tags: [设计模式, 多线程, Java]
 - [Single Thread Exception模式](https://www.jianshu.com/p/0ed7102c01f3)的升级版, 增加了守护条件!
 - 如果希望在实例是非正确的条件下, 来访问的线程不进行等待, 而是直接返回, 可以使用[Balking模式](https://www.jianshu.com/p/ca657318446b)
 #### 代码示例:
+
 ```java
 package com.graphic.guardedSuspension;
 
