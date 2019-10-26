@@ -22,7 +22,7 @@ url     : https://youngxinler.github.io/   # the base hostname & protocol for yo
 baseurl : # does not include hostname
 title   : youngxinler's blog
 description: > # this means to ignore newlines until "Language & timezone"
-  be yourself
+    this is youngxinler's blog
 ## => Language and Timezone
 ##############################
 lang: # the language of your site, default as "en"
@@ -36,7 +36,7 @@ author:
   name      : youngxinler
   url       :
   avatar    : # path or url of avatar image (square)
-  bio       : I am an amazing person.
+  bio       : 未来未至, 谁也不敢肯定现在发生的事到底只是现在正确还是一直正确.
   email     : 524022485@qq.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
@@ -94,7 +94,7 @@ chart: # false (default), true
 
 ## => Paginate
 ##############################
-paginate: 8
+paginate: 5
 paginate_path: /page:num # don't change this unless for special need
 
 
