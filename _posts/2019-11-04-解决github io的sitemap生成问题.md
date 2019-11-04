@@ -9,34 +9,10 @@ tags: 杂谈
 
 我猜测问题的根源发生在`_config.yml`中, 但是改了N多次, 还是没有解决.
 
-之后我就用了一个sitemap模板, 如下
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {% for post in site.posts %}
-    <url>
-      <loc>{{ site.url }}{{ post.url }}</loc>
-      {% if post.lastmod == null %}
-        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-      {% else %}
-        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
-      {% endif %}
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  {% endfor %}
-  {% for page in site.pages %}
-    {% if page.sitemap != null and page.sitemap != empty %}
-      <url>
-        <loc>{{ site.url }}{{ page.url }}</loc>
-        <lastmod>{{ page.sitemap.lastmod | date_to_xmlschema }}</lastmod>
-        <changefreq>{{ page.sitemap.changefreq }}</changefreq>
-        <priority>{{ page.sitemap.priority }}</priority>
-       </url>
-    {% endif %}
-  {% endfor %}
-</urlset>
-```
+之后我就用了一个sitemap模板, 大概如下
+
+![sitemap模板](https://i.loli.net/2019/11/04/Xk6PMAcHiblY25R.png)
+
 但是一点都不好使, 在google console中, 一直显示我的站点地图是存在错误的.
 
 哎, 一顿折腾之后, 算了吧, 就这样把.
