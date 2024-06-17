@@ -224,7 +224,10 @@ layout: base
         </div>
 
         {%- if _footer != false -%}
-          <div class="page__footer d-print-none">{%- include footer.html -%}</div>
+          <div class="page__footer d-print-none">
+            {%- include footer.html -%}
+            <a style="color:#FFF" href="https://beian.miit.gov.cn/" target="_blank">豫ICP备19013284号-1</a>
+          </div>
         {%- endif -%}
       </div>
     </div> {%- comment -%} end page__main {%- endcomment -%}
